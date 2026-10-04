@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/attenly", "destination": "https://attenly-ashen.vercel.app/attenly" },
+    { "source": "/attenly/", "destination": "https://attenly-ashen.vercel.app/attenly" },
+    { "source": "/attenly/:path*", "destination": "https://attenly-ashen.vercel.app/attenly/:path*" },
+    { "source": "/notes", "destination": "https://yoshik-notes.vercel.app/notes" },
+    { "source": "/notes/", "destination": "https://yoshik-notes.vercel.app/notes/" },
+    { "source": "/notes/:path*", "destination": "https://yoshik-notes.vercel.app/notes/:path*" },
+    { "source": "/", "destination": "https://personal-tau-pearl.vercel.app/" },
+    { "source": "/:path*", "destination": "https://personal-tau-pearl.vercel.app/:path*" }
+  ]
+}
