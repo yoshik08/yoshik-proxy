@@ -4,9 +4,9 @@
     { "source": "/attenly", "destination": "https://attenly-ashen.vercel.app/attenly" },
     { "source": "/attenly/", "destination": "https://attenly-ashen.vercel.app/attenly" },
     { "source": "/attenly/:path*", "destination": "https://attenly-ashen.vercel.app/attenly/:path*" },
-    { "source": "/notes", "destination": "https://yoshik-notes-six.vercel.app/" },
-    { "source": "/notes/", "destination": "https://yoshik-notes-six.vercel.app/" },
-    { "source": "/notes/:path*", "destination": "https://yoshik-notes-six.vercel.app/:path*" },
+    { "source": "/notes", "destination": "https://yoshik-notes.vercel.app/" },
+    { "source": "/notes/", "destination": "https://yoshik-notes.vercel.app/" },
+    { "source": "/notes/:path*", "destination": "https://yoshik-notes.vercel.app/:path*" },
     { "source": "/", "destination": "https://personal-tau-pearl.vercel.app/" },
     { "source": "/:path*", "destination": "https://personal-tau-pearl.vercel.app/:path*" }
   ]
