@@ -1,13 +1,99 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/attenly", "destination": "https://attenly-ashen.vercel.app/attenly" },
-    { "source": "/attenly/", "destination": "https://attenly-ashen.vercel.app/attenly" },
-    { "source": "/attenly/:path*", "destination": "https://attenly-ashen.vercel.app/attenly/:path*" },
-    { "source": "/notes", "destination": "https://yoshik-notes.vercel.app/" },
-    { "source": "/notes/", "destination": "https://yoshik-notes.vercel.app/" },
-    { "source": "/notes/:path*", "destination": "https://yoshik-notes.vercel.app/:path*" },
-    { "source": "/", "destination": "https://personal-tau-pearl.vercel.app/" },
-    { "source": "/:path*", "destination": "https://personal-tau-pearl.vercel.app/:path*" }
+    {
+      "source": "/assets/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "play.yoshik.xyz"
+        }
+      ],
+      "destination": "https://personal-tau-pearl.vercel.app/assets/:path*"
+    },
+    {
+      "source": "/play/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "play.yoshik.xyz"
+        }
+      ],
+      "destination": "https://personal-tau-pearl.vercel.app/play/:path*"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "play.yoshik.xyz"
+        }
+      ],
+      "destination": "https://personal-tau-pearl.vercel.app/play"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "play.yoshik.xyz"
+        }
+      ],
+      "destination": "https://personal-tau-pearl.vercel.app/play/:path*"
+    },
+    {
+      "source": "/attenly",
+      "destination": "https://attenly-ashen.vercel.app/attenly"
+    },
+    {
+      "source": "/attenly/",
+      "destination": "https://attenly-ashen.vercel.app/attenly"
+    },
+    {
+      "source": "/attenly/:path*",
+      "destination": "https://attenly-ashen.vercel.app/attenly/:path*"
+    },
+    {
+      "source": "/notes",
+      "destination": "https://yoshik-notes.vercel.app/"
+    },
+    {
+      "source": "/notes/",
+      "destination": "https://yoshik-notes.vercel.app/"
+    },
+    {
+      "source": "/notes/:path*",
+      "destination": "https://yoshik-notes.vercel.app/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://personal-tau-pearl.vercel.app/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://personal-tau-pearl.vercel.app/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/play/",
+      "destination": "/play",
+      "permanent": true
+    },
+    {
+      "source": "/engagement/",
+      "destination": "/engagement",
+      "permanent": true
+    },
+    {
+      "source": "/type/",
+      "destination": "/type",
+      "permanent": true
+    },
+    {
+      "source": "/sportsphere/",
+      "destination": "/sportsphere",
+      "permanent": true
+    }
   ]
 }
