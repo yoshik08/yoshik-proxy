@@ -66,6 +66,18 @@
       "destination": "https://yoshik-notes.vercel.app/:path*"
     },
     {
+      "source": "/gba",
+      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba"
+    },
+    {
+      "source": "/gba/",
+      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba"
+    },
+    {
+      "source": "/gba/:path*",
+      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba/:path*"
+    },
+    {
       "source": "/",
       "destination": "https://personal-tau-pearl.vercel.app/"
     },
