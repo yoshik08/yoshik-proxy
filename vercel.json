@@ -67,15 +67,15 @@
     },
     {
       "source": "/gba",
-      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba"
+      "destination": "https://gba-beige.vercel.app/gba"
     },
     {
       "source": "/gba/",
-      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba"
+      "destination": "https://gba-beige.vercel.app/gba"
     },
     {
       "source": "/gba/:path*",
-      "destination": "https://gba-moau9ece9-yoshiks-projects-316d1671.vercel.app/gba/:path*"
+      "destination": "https://gba-beige.vercel.app/gba/:path*"
     },
     {
       "source": "/",
