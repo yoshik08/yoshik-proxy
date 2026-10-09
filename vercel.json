@@ -79,15 +79,15 @@
     },
     {
       "source": "/wander",
-      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/"
+      "destination": "https://meadow-yoshiks-projects-316d1671.vercel.app/"
     },
     {
       "source": "/wander/",
-      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/"
+      "destination": "https://meadow-yoshiks-projects-316d1671.vercel.app/"
     },
     {
       "source": "/wander/:path*",
-      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/:path*"
+      "destination": "https://meadow-yoshiks-projects-316d1671.vercel.app/:path*"
     },
     {
       "source": "/",
