@@ -78,6 +78,18 @@
       "destination": "https://gba-beige.vercel.app/gba/:path*"
     },
     {
+      "source": "/wander",
+      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/"
+    },
+    {
+      "source": "/wander/",
+      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/"
+    },
+    {
+      "source": "/wander/:path*",
+      "destination": "https://meadow-h4cz66lkq-yoshiks-projects-316d1671.vercel.app/:path*"
+    },
+    {
       "source": "/",
       "destination": "https://personal-tau-pearl.vercel.app/"
     },
