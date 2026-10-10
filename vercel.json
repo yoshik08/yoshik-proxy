@@ -32,10 +32,6 @@
       "destination": "https://personal-tau-pearl.vercel.app/play"
     },
     {
-      "source": "/lyrics",
-      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
-    },
-    {
       "source": "/lyrics/",
       "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
     },
@@ -99,6 +95,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/lyrics",
+      "destination": "/lyrics/",
+      "permanent": true
+    },
     {
       "source": "/play/",
       "destination": "/play",
