@@ -32,6 +32,18 @@
       "destination": "https://personal-tau-pearl.vercel.app/play"
     },
     {
+      "source": "/lyrics",
+      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
+    },
+    {
+      "source": "/lyrics/",
+      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
+    },
+    {
+      "source": "/lyrics/:path*",
+      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/:path*"
+    },
+    {
       "source": "/:path*",
       "has": [
         {
@@ -84,18 +96,6 @@
     {
       "source": "/:path*",
       "destination": "https://personal-tau-pearl.vercel.app/:path*"
-    },
-    {
-      "source": "/lyrics",
-      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
-    },
-    {
-      "source": "/lyrics/",
-      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/"
-    },
-    {
-      "source": "/lyrics/:path*",
-      "destination": "https://lyrics-yoshiks-projects-316d1671.vercel.app/:path*"
     }
   ],
   "redirects": [
